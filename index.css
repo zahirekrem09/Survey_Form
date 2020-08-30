@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  color: white;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px 100px;
+}
+
+#title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Bowlby One SC", cursive;
+  padding-top: 15px;
+  letter-spacing: 4px;
+}
+span {
+  color: red;
+}
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 15px;
+}
+#survey-form {
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: auto;
+  padding-top: 10px;
+}
+
+.form-group {
+  margin: 20px 40px;
+  padding: 0.25rem;
+}
+
+.form-group label {
+  display: block;
+}
+
+.box-checkbox {
+  display: flex;
+}
+.box-checkbox label {
+  margin-right: 30px;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 1.25rem;
+  height: 40px;
+  margin-top: 10px;
+  outline: 0;
+  padding: 0.75rem;
+  width: 500px;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-sizing: content-box;
+  resize: none;
+}
+
+.btn {
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  margin: 0 160px 20px 160px;
+  height: 40px;
+  width: 200px;
+  border-radius: 40px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+  color: red;
+}

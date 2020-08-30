@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Sorts+Mill+Goudy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="survey-form">
+        <form
+          id="survey-form"
+          action="result.html"
+          method="GET"
+          target="_blank"
+        >
+          <h1 id="title">Net<span>Flix</span></h1>
+          <h3 >
+            Thank you for signing up at Netflix. Tell us more about your self
+          </h3>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              id="name"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="number">Age</label>
+            <input
+              type="number"
+              min="16"
+              max="70"
+              name="age"
+              placeholder="Age"
+              id="number"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              id="email"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="dropdown" id="dropdown-label">Content type</label>
+            <select name="content" id="dropdown" class="form-control">
+              <option value="Movie">Movie</option>
+              <option value="Series">Series</option>
+              <option value="Documentary" selected>Documentary</option></select
+            >
+          </div>
+
+          <div class="form-group box-checkbox">
+            <label id="checkbox"> Movie Type:</label>
+            <label for="first-check"
+              ><input
+                type="checkbox"
+                id="first-check"
+                name="movie1"
+                value="Comedy"
+                
+              />
+              Comedy</label
+            >
+            <label for="second-check"
+              ><input
+                type="checkbox"
+                id="second-check"
+                name="movie2"
+                value="Action"
+              />
+              Action</label
+            >
+            <label for="third-check"
+              ><input
+                type="checkbox"
+                id="third-check"
+                name="movie3"
+                value="Romance"
+                checked
+              />
+              Romance</label
+            >
+          </div>
+
+          <div class="form-group box-checkbox">
+            <label id="radiobtn">Gender:</label>
+            <label for="first-radio"
+              ><input
+                type="radio"
+                id="first-radio"
+                name="gender"
+                value="male"
+                
+              />
+              Male</label
+            >
+            <label for="second-radio"
+              ><input
+                type="radio"
+                id="second-radio"
+                name="gender"
+                value="female"
+                
+              />
+              Female</label
+            >
+            <label for="third-radio"
+              ><input
+                type="radio"
+                id="third-radio"
+                name="gender"
+                value="other"
+                
+              />
+              Other</label
+            >
+          </div>
+
+          <div class="form-group box-textarea">
+            <label id="feed-label">Feed back</label>
+            <textarea
+              class="text-area form-control"
+              name="message"
+              rows="10"
+              cols="55"
+              placeholder="Any Comment"
+            ></textarea
+            >
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Submit</button>
+          </div>       
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
