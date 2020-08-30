@@ -19,6 +19,6 @@ Project aims to create survey form within html and css.
         |----result.html 
 ```
 
-Build a Survey Form that is functionally similar to this: [Survey Form](https://mccarthy-silva.github.io/Survey-Form/)
+Build a Survey Form that is functionally similar to this: [Survey Form](https://zahirekrem09.github.io/Survey_Form/)
 
 
